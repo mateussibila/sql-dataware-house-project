@@ -17,7 +17,7 @@ Usage Example:
 ===============================================================================
 */
 
--- We are using the path '/var/opt/mssql/csv/cust_info.csv' because the CSV files
+-- We are using the path '/var/opt/mssql/csv/file_name.csv' because the CSV files
 -- were copied to a Docker volume (csv-data) and mounted inside the SQL Server container.
 -- The SQL Server inside the container **cannot access your Mac's local folders directly**, 
 -- so we need to point to the path inside the container where the volume is mounted.
